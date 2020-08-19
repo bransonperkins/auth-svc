@@ -4,7 +4,7 @@ spring:
       uri: mongodb+srv://fluffylizards:win2020@gaming-lounge.cwniv.mongodb.net/users?retryWrites=true&w=majority
 
 server:
-  port: 8081
+  port: ${PORT:8081}
 
 security:
   basic:
