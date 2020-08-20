@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Slf4j
-@CrossOrigin(value = "https://gaming-lounge-frontend.herokuapp.com/login")
+@CrossOrigin
 public class UserEndpoint {
 
     @Autowired
