@@ -25,7 +25,7 @@ import java.net.URI;
 
 @RestController
 @Slf4j
-@CrossOrigin(value = "https://gaming-lounge-frontend.herokuapp.com/")
+@CrossOrigin(value = "https://gaming-lounge-frontend.herokuapp.com/login")
 public class AuthEndpoint {
 
     @Autowired private UserService userService;
